@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,d as p}from"./app.11fdb72d.js";const i=JSON.parse('{"title":"vue-cli4\u8BBE\u7F6E\u6253\u5305\u76F8\u5BF9\u8DEF\u5F84","description":"","frontmatter":{},"headers":[],"relativePath":"vue/pack.md"}'),l={name:"vue/pack.md"},o=p("",6),e=[o];function c(t,D,r,F,y,C){return n(),a("div",null,e)}const d=s(l,[["render",c]]);export{i as __pageData,d as default};
