@@ -67,6 +67,7 @@ module.exports =  {
       text: '其他',
       collapsable: false,
       items: [
+        { text: '微信小程序', link: '/other/miniprogram' },
         { text: 'GIT', link: '/other/git' },
         { text: 'axios', link: '/other/axios' },
         { text: 'MYSQL', link: '/other/mysql' },
