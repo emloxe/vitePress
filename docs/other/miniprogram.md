@@ -28,7 +28,7 @@ setEdit(e) {
 
 方式二：
 传递id等数据
-```
+```html
 <navigator url="/pages/order/buy_tijao/index?id=123">
   <button>去结算</button>
 </navigator>
