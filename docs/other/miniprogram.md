@@ -1,5 +1,42 @@
 # 微信小程序
 
+
+## 基础操作
+
+html中
+```html
+<view>{{a}}</view>
+
+<button bindtap="clickHandler"></button>
+```
+
+
+
+js中
+```js
+page({
+  data: {
+    a: 1,
+    b: 0,
+  },
+  // 监听数据
+  observers: {
+      a: function () {
+          console.log('a改变')
+      }
+  },
+  clickHandler() {
+    // 获取数据
+    const a = this.data.a
+    // 改变数据
+    this.setData({
+      a: 2
+    });
+  }
+})
+```
+
+
 ## 数据传递
 
 
