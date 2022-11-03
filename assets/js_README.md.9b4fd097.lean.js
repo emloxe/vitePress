@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.c471ccc1.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"js/README.md"}'),r={name:"js/README.md"};function s(o,c,n,p,_,d){return a(),t("div")}const f=e(r,[["render",s]]);export{m as __pageData,f as default};
