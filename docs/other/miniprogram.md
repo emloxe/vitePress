@@ -6,7 +6,7 @@
 ### 点击 数据传递到函数
 
 ```html
-<text bindtap="setEdit" data-aaa="123" data-bbb="{{true}}">编辑</text>
+<text bindtap="setEdit" data-id="123" data-isEdit="{{true}}">编辑</text>
 
 ```
 
@@ -14,10 +14,13 @@
 ```js
 setEdit(e) {
   this.setData({
-    isEdit: e.currentTarget.dataset.b
+    id: e.currentTarget.dataset.id
   })
+  // 通过 e.currentTarget.dataset.isEdit 是无法拿到值的，原因是不区分大小写
+  // 需要用  e.currentTarget.dataset.isedit
 }
 ```
+
 
 
 
@@ -40,3 +43,9 @@ onLoad(options) {
   const id = options.id
 },
 ```
+
+
+
+## mobx-miniprogram
+
+
