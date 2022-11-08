@@ -44,7 +44,6 @@ page({
 
 ```html
 <text bindtap="setEdit" data-id="123" data-isEdit="{{true}}">编辑</text>
-
 ```
 
 
@@ -85,4 +84,13 @@ onLoad(options) {
 
 ## mobx-miniprogram
 
+
+## 文档
+
+[小程序用户头像昵称获取规则调整公告](https://developers.weixin.qq.com/community/develop/doc/00022c683e8a80b29bed2142b56c01)
+
+[地理位置接口新增与相关流程调整](https://developers.weixin.qq.com/community/develop/doc/000a02f2c5026891650e7f40351c01)
+
+
+[小程序支付开发指引](https://pay.weixin.qq.com/wiki/doc/apiv3/open/pay/chapter2_8_2.shtml)
 
