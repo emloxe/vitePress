@@ -81,9 +81,58 @@ onLoad(options) {
 ```
 
 
+### 父组件与子组件
+父组件
+```html
+<Child
+  a="{{a}}"
+  bind:setA="setA"
+></Child>
+```
+```js
+Component({
+  data: {
+    a: 3
+  },
+  methods: { // 页面就不用包裹这个methods
+    setA(obj) {
+      this.setData({
+        a: obj.detail.a
+      })
+    }
+  }
+})
+```
+
+子组件
+```html
+<Button bindtap="change">{{a}}</Button>
+```
+```js
+Component({
+  properties: {
+    a: {
+      type: Number,
+      observer(a) {
+        console.log('数据发生改变', a)
+      },
+    }
+  },
+  methods: {
+    change() {
+      const a = this.properties.a;
+      this.triggerEvent('setA', {
+        a: a + 1,
+      });
+    }
+  }
+})
+
+```
+
 
 ## mobx-miniprogram
-
+https://www.jianshu.com/p/0c6657900f29
 
 ## 文档
 
