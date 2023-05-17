@@ -1,4 +1,5 @@
-# vue-cli4设置打包相对路径
+# 打包
+## vue-cli4设置打包相对路径
 
 修改配置vue.config.js
 ```js
@@ -15,4 +16,18 @@ module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '' : '/',
 }
 
+```
+
+
+## 服务代理
+```
+  devServer: {
+    // 配置webpack服务
+
+    proxy: {
+      '/xysrd': {
+        target: 'http://dt.hj.cn',
+      },
+    },
+  },
 ```
