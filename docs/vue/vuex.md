@@ -168,7 +168,7 @@ export default store;
   <CodeGroupItem title="main">
 
 ```js
-
+// main.js
 import store from './store';
 app.use(store).use(router).mount('#app');
 ```
@@ -186,8 +186,7 @@ app.use(store).use(router).mount('#app');
   </div>
 </template>
 
-
-
+<script>
 import { useStore } from 'vuex';
 
 const store = useStore();
@@ -196,7 +195,7 @@ store.commit('increment', [1, 2]);
 store.dispatch('incrementAsync').then(() => {
   console.log('异步触发完成')
 });
-
+</script>
 ```
 
   </CodeGroupItem>
