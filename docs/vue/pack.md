@@ -1,4 +1,32 @@
 # 打包
+
+## 添加的文件
+
+忽略eslint的文件
+```.eslintignore
+/dist
+/node_modules
+/tools
+/build
+/src/assets
+/static
+/public
+```
+
+
+编辑配置配置
+```.prettierrc.json
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "semi": true,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 120,
+  "trailingComma": "none"
+}
+```
+
+
 ## vue-cli4设置打包相对路径
 
 修改配置vue.config.js
@@ -31,3 +59,5 @@ module.exports = {
     },
   },
 ```
+
+
