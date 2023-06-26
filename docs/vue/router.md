@@ -224,3 +224,9 @@ const router = createRouter({
   }
 });
 ```
+
+
+## 文档
+
+
+https://router.vuejs.org/zh/
