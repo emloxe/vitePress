@@ -3,7 +3,7 @@
 ## 添加的文件
 
 忽略eslint的文件
-```.eslintignore
+```
 /dist
 /node_modules
 /tools
