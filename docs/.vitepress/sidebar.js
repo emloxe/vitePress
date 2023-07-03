@@ -59,6 +59,7 @@ module.exports =  {
       collapsable: false,
       items: [
         { text: '打包', link: '/vue/pack' },
+        { text: '表单编辑工具', link: 'https://emloxe.github.io/vueform/#/' }
       ]
     },
   ],

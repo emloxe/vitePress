@@ -12,6 +12,7 @@ module.exports =  [
             items: [
               // { text: '博客', link: 'https://emloxe.github.io/blog/' },
               { text: '笔记', link: 'https://emloxe.github.io/note/' }
+              
             ] 
           }
         ]
