@@ -3,6 +3,7 @@
 ## 添加的文件
 
 忽略eslint的文件
+`.eslintignore`
 ```
 /dist
 /node_modules
@@ -15,7 +16,8 @@
 
 
 编辑配置配置
-```.prettierrc.json
+`.prettierrc.json`
+```
 {
   "$schema": "https://json.schemastore.org/prettierrc",
   "semi": true,
