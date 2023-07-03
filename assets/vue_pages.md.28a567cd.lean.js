@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,d as p}from"./app.c471ccc1.js";const i=JSON.parse('{"title":"\u591A\u9875\u9762\u5165\u53E3","description":"","frontmatter":{},"headers":[],"relativePath":"vue/pages.md"}'),l={name:"vue/pages.md"},o=p("",4),e=[o];function t(c,r,D,F,y,C){return a(),n("div",null,e)}const _=s(l,[["render",t]]);export{i as __pageData,_ as default};

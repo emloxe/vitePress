@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,d as l}from"./app.c471ccc1.js";const _=JSON.parse('{"title":"moment","description":"","frontmatter":{},"headers":[],"relativePath":"other/moment.md"}'),p={name:"other/moment.md"},o=l("",5),D=[o];function t(e,c,r,F,y,C){return a(),n("div",null,D)}const i=s(p,[["render",t]]);export{_ as __pageData,i as default};
