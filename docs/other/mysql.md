@@ -26,6 +26,7 @@ sidebar: auto
 > use  [数据库名];
 ```
 
+删除数据库
 ```
 drop database [数据库名];
 ```
